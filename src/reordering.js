@@ -1,6 +1,6 @@
 import { getBidiCharType, TRAILING_TYPES } from './charTypes.js'
 import { getMirroredCharacter } from './mirroring.js'
-import { stringToArray } from './utils/stringToArray.js'
+import { stringToArray } from './util/stringToArray.js'
 
 /**
  * Given a start and end denoting a single line within a string, and a set of precalculated
