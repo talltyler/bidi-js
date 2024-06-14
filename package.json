@@ -1,5 +1,5 @@
 {
-  "name": "@talltyler/bidi-js",
+  "name": "@paperlesspost/bidi-js",
   "version": "1.0.3",
   "description": "A JavaScript implementation of the Unicode Bidirectional Algorithm",
   "main": "dist/bidi.js",
@@ -9,6 +9,7 @@
     "url": "https://github.com/talltyler/bidi-js.git"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "rollup -c rollup.config.js",
     "test": "npx babel-node --plugins @babel/plugin-transform-modules-commonjs test/runTestsOnSrc.js",
     "test-build": "node test/runTestsOnBuild.js"
