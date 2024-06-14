@@ -1,6 +1,6 @@
 {
   "name": "@paperlesspost/bidi-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A JavaScript implementation of the Unicode Bidirectional Algorithm",
   "main": "dist/bidi.js",
   "module": "dist/bidi.mjs",
