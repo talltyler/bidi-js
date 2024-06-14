@@ -6,5 +6,5 @@
  * @return {string[]} - the string broken down into an array of characters.
  */
 export function stringToArray (string) {
-  return [...new Intl.Segmenter().segment(string)].map(x => x.segment);
+  return [...Array.from(new Intl.Segmenter().segment(string))].map(x => x.segment);
 }
